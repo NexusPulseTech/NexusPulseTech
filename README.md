@@ -29,7 +29,7 @@ Client code stays private. Projects under NDA are listed without client names.
 | --- | --- | --- |
 | Enterprise Web3 Loyalty & Quest SaaS | Partner project, NDA | Multi-tenant loyalty platform that verifies user actions on X, Telegram, Discord and on-chain |
 | Super App Ecosystem | NDA | Connects consumers to e-commerce and travel services, with automated partner commissions |
-| Omnichannel Chatbot-as-a-Service | NexusPulse product | Chatbots for Messenger, Zalo OA and websites that capture leads and close orders. Open-source starter: [chat-bot-starter](https://github.com/NexusPulseTech/chat-bot-starter) |
+| Omnichannel Chatbot-as-a-Service | NexusPulse product | Chatbots for Messenger, Zalo OA and websites that capture leads and close orders. Open-source Community Edition: [chat-bot-starter](https://github.com/NexusPulseTech/chat-bot-starter) |
 
 ## How we work
 
