@@ -4,85 +4,106 @@
 
 **Where the growth begins.**
 
-An independent product engineering studio from Viet Nam.
-We design, build and ship growth-focused web and Web3 products together with our partners.
+Software outsourcing and product development studio from Ho Chi Minh City, Viet Nam.
 
-[What we do](#what-we-do) · [How we collaborate](#how-we-collaborate) · [Contributing](CONTRIBUTING.md) · [Security](SECURITY.md) · [Tiếng Việt](#tiếng-việt)
+[LinkedIn](https://www.linkedin.com/company/nexuspulsetech/) | [Facebook](https://www.facebook.com/NexusPulseTech) | [TikTok](https://www.tiktok.com/@nexuspulsetech) | [X](https://x.com/NexusPulseTech) | [GitHub](https://github.com/NexusPulseTech)
 
 </div>
 
----
+## About us
 
-> [!NOTE]
-> NexusPulse is in its founding stage and is not yet a registered legal entity.
-> Until then, the **@NexusPulseTech** account represents the founding team's engineering work on NexusPulse and partner projects.
+NexusPulse is a technology and digital growth studio founded in 2024. We work in two ways:
 
-## About
+- **Outsourcing:** we build software for B2B clients, from web platforms and SaaS to Web3 systems, and join their teams as an engineering partner.
+- **Products:** we build and run our own products, such as chatbot and automation services for small and medium businesses.
 
-NexusPulse is the technical partner behind products that need to grow: loyalty and quest platforms, community apps, and the landing pages that bring users in.
-We work as an embedded engineering team inside our partners' repositories, from architecture and database design to CI/CD and production deploys.
+Our approach is automation-first. We combine scalable architecture (Next.js, Node.js, Docker) with workflow automation (n8n, Make.com), so the systems we deliver keep running without constant manual work. Every project is tied to a business goal, such as more leads, higher conversion or lower operating cost.
 
-This repository, **Start**, is the entry point to NexusPulse on GitHub: who we are, how we work, and how to reach us.
+## Services
 
-## What we do
-
-| Area | Scope |
+| Service | What we deliver |
 | --- | --- |
-| **Product engineering** | Full-stack web apps and multi-tenant SaaS platforms: architecture, APIs, data modelling |
-| **Web3 growth & loyalty** | Quest engines, points economies, anti-abuse checks, wallet login |
-| **Landing pages & brand sites** | Fast, SEO-ready marketing sites with interactive 3D and motion |
-| **DevOps** | Docker, GitHub Actions CI/CD, self-hosted VPS deploys |
-
-## Tech stack
-
-- **Languages:** TypeScript, JavaScript
-- **Frontend:** Next.js, React, Tailwind CSS, shadcn/ui, Three.js
-- **Backend:** NestJS, Node.js, Prisma, BullMQ
-- **Data:** PostgreSQL, Redis
-- **Infrastructure:** Docker, Nginx, GitHub Actions, pnpm monorepos
-
-## How we collaborate
-
-When we work on a partner's project, the partner owns the repository and the code. NexusPulse joins as a contributor:
-
-- **Least privilege.** We are added as a collaborator with *write* access. Admin rights stay with the owner, and access is removed when the engagement ends.
-- **Pull requests only.** Work happens on feature branches and reaches `main` through a reviewed pull request.
-- **Readable history.** Commits follow [Conventional Commits](https://www.conventionalcommits.org/), such as `feat(api): add quest verification`.
-- **One identity.** Work done for NexusPulse is committed under the @NexusPulseTech identity.
-- **Confidentiality.** Partner projects are private by default. We don't list or discuss them publicly without the partner's permission.
-
-The full guide is in [CONTRIBUTING.md](CONTRIBUTING.md).
+| Custom software development | Web applications, multi-tenant SaaS platforms, admin portals, APIs |
+| Web3 solutions | Loyalty and quest platforms, wallet sign-in (SIWE), on-chain verification |
+| Automation and chatbots | n8n and Make.com workflows, chatbots for Messenger, Zalo OA and websites |
+| AI agents and training | Custom AI agents for business workflows, hands-on AI training for teams |
+| Digital growth | Landing pages, SEO, conversion optimization, performance advertising |
+| DevOps | Docker, CI/CD with GitHub Actions, VPS deployment |
 
 ## Selected work
 
-Most partner projects are private. Public case studies will be listed here once partners approve them.
+Client source code stays private. Projects under NDA are described without naming the client.
+
+**Enterprise Web3 Loyalty & Quest SaaS** (partner project, under NDA)
+Multi-tenant loyalty and community growth platform built as a pnpm monorepo: NestJS/Fastify API, Next.js 14 frontends and BullMQ/Redis verification workers. It includes multi-layer anti-Sybil checks, double-spend protection with Redis locks and database constraints, and a quest engine that verifies user actions on X, Telegram, Discord and on-chain.
+
+**Super App Ecosystem** (under NDA)
+Intermediary platform that connects consumers to e-commerce (Shopee, TikTok, Lazada) and travel services. The user app and the admin portal are fully separated, with multi-vertical distribution logic and automated commission tracking for partners.
+
+**Omnichannel Chatbot-as-a-Service** (NexusPulse product)
+Chatbots for Facebook Messenger, Zalo OA and websites that send offers, collect leads and close orders, with real-time sync to Google Sheets. Delivered as ready-to-use web templates with the chatbot built in.
+
+## Tech stack
+
+- **Languages:** TypeScript, JavaScript, Python
+- **Frontend:** Next.js, React, Tailwind CSS, Three.js
+- **Backend:** Node.js, NestJS, Fastify, Express, Socket.IO
+- **Data:** PostgreSQL, Redis, MongoDB, Prisma, BullMQ, Firebase
+- **Web3:** SIWE, web3.js, on-chain data
+- **Automation:** n8n, Make.com, Google Sheets API
+- **Infrastructure:** Docker, Nginx, GitHub Actions, Ubuntu VPS
+
+## How we collaborate
+
+On client projects, the client owns the repository and the code. NexusPulse joins as a contributor:
+
+- **Least privilege:** we are added as a collaborator with *write* access. Admin rights stay with the owner, and access is removed when the engagement ends.
+- **Pull requests only:** work happens on feature branches and reaches `main` through a reviewed pull request.
+- **Readable history:** commits follow [Conventional Commits](https://www.conventionalcommits.org/), for example `feat(api): add quest verification`.
+- **One identity:** work done for NexusPulse is committed under the @NexusPulseTech account.
+- **Confidentiality:** client projects are private by default. We do not name or show them without the client's permission.
+
+The full guide is in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Team
+
+**Nguyễn Vĩnh Phúc (William)**, Founder & Full-Stack Architect | [LinkedIn](https://www.linkedin.com/in/william-nguyen-arch)
 
 ## Contact
 
-- **Partnerships and questions:** [open an issue](../../issues/new) in this repository
-- **Security reports:** see [SECURITY.md](SECURITY.md). Please don't report vulnerabilities in public issues.
+- **Business inquiries:** message us on [LinkedIn](https://www.linkedin.com/company/nexuspulsetech/) or [Facebook](https://www.facebook.com/NexusPulseTech)
+- **Security reports:** see [SECURITY.md](SECURITY.md). Please do not report vulnerabilities in public issues.
+
+## Company status
+
+NexusPulse is not yet a registered legal entity. Until registration is complete, the @NexusPulseTech account represents the founding team on GitHub.
 
 ---
 
 ## Tiếng Việt
 
-**NexusPulse — Where the growth begins.**
+**NexusPulse - Where the growth begins.**
 
-NexusPulse là studio phát triển sản phẩm công nghệ độc lập tại Việt Nam, hiện đang trong **giai đoạn thành lập** (chưa đăng ký pháp nhân).
-Tài khoản **@NexusPulseTech** đại diện cho đội ngũ sáng lập khi tham gia phát triển các dự án của NexusPulse và của đối tác.
+NexusPulse là studio công nghệ và tăng trưởng số tại TP. Hồ Chí Minh, hoạt động từ năm 2024, theo hai mảng:
 
-**Lĩnh vực:** web app và nền tảng SaaS, hệ thống loyalty/quest Web3, landing page, DevOps (Docker, CI/CD, triển khai VPS).
+- **Outsource:** phát triển phần mềm cho doanh nghiệp (B2B): web app, nền tảng SaaS, hệ thống Web3. Chúng tôi tham gia vào dự án của khách hàng với vai trò đối tác kỹ thuật.
+- **Sản phẩm:** xây dựng và vận hành sản phẩm riêng, ví dụ dịch vụ chatbot và tự động hoá cho doanh nghiệp vừa và nhỏ.
+
+**Dịch vụ:** phát triển phần mềm theo yêu cầu, giải pháp Web3, tự động hoá quy trình (n8n, Make.com) và chatbot, AI agent và đào tạo ứng dụng AI, landing page và SEO, DevOps (Docker, CI/CD, VPS).
 
 **Nguyên tắc hợp tác:**
-- Đối tác sở hữu repository và mã nguồn; NexusPulse tham gia với quyền *write*, không giữ quyền admin.
+
+- Khách hàng sở hữu repository và mã nguồn. NexusPulse tham gia với quyền *write*, không giữ quyền admin.
 - Mọi thay đổi đi qua nhánh riêng và pull request có review trước khi vào `main`.
 - Commit theo chuẩn Conventional Commits.
-- Dự án của đối tác mặc định được bảo mật và không công khai khi chưa có sự đồng ý.
+- Dự án của khách hàng được bảo mật, không công khai khi chưa có sự đồng ý.
 
-**Liên hệ:** [mở issue](../../issues/new) trong repository này.
+**Nhà sáng lập:** Nguyễn Vĩnh Phúc (William), Founder & Full-Stack Architect.
+
+**Liên hệ:** [LinkedIn](https://www.linkedin.com/company/nexuspulsetech/) | [Facebook](https://www.facebook.com/NexusPulseTech) | [TikTok](https://www.tiktok.com/@nexuspulsetech) | [X](https://x.com/NexusPulseTech)
 
 ---
 
 <div align="center">
-<sub>© 2026 NexusPulse · Viet Nam</sub>
+<sub>© 2026 NexusPulse. Ho Chi Minh City, Viet Nam.</sub>
 </div>
